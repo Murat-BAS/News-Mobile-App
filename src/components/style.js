@@ -2,7 +2,6 @@ import { StyleSheet } from "react-native";
 
 const Style = StyleSheet.create({
     container: {
-        backgroundColor: "red",
         marginTop: 40,
         flex: 1,
     },
@@ -45,6 +44,10 @@ const Style = StyleSheet.create({
         flex: 1,
         alignItems: "center"
     },
+    catogory_title: {
+        fontSize: 32,
+        fontWeight: "600"
+    }
 })
 
 export default Style
